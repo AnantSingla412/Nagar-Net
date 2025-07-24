@@ -1,0 +1,76 @@
+/* Custom CSS for Traffic Analysis Dashboard */
+
+.main-header {
+    font-size: 2.5rem;
+    color: #1f77b4;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.metric-card {
+    background-color: #f0f2f6;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.stSelectbox > div > div > select {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.upload-section {
+    border: 2px dashed #1f77b4;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.roi-preview {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.analysis-button {
+    background: linear-gradient(45deg, #1f77b4, #17a2b8);
+    color: white;
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.analysis-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.results-container {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-top: 1rem;
+}
+
+.error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 1rem;
+    border-radius: 5px;
+    border-left: 4px solid #dc3545;
+}
+
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 1rem;
+    border-radius: 5px;
+    border-left: 4px solid #28a745;
+}
